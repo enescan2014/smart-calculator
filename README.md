@@ -34,7 +34,7 @@ Example
 - Dictionaries for lookup tables: The unit converter stores all 6 conversion factors in one dictionary. 
   
 What I Learned
-I learned about floating-point precision — I was confused why 0.1 + 0.2 != 0.3 until I read about how computers store decimal numbers in binary. The round() fix was the solution. 
+I learned about floating-point precision. I was confused why 0.1 + 0.2 != 0.3 until I read about how computers store decimal numbers in binary. The round() fix was the solution. 
 
 For example, "round(result, 10)" Floating point numbers in computers aren't perfectly precise. 0.1 + 0.2 gives 0.30000000000000004 in Python. Sooo, rounding to 10 decimal places fixes these display issues.
 
